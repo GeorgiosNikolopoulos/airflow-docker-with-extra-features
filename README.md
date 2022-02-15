@@ -31,7 +31,7 @@ If you wish to reset the entire deployment run the reset.sh file in the root air
 If you want to set up remote logs, follow these steps:
 1. Set up an azure storage account
 2. Create a container called airflow-logs
-3. Set up the connection in airflow (Microsoft azure blob storage type). Easiest way to do this is via a Connection Key (Availabe in the access key section of the storage acount).
+3. Set up the connection in airflow (Microsoft azure blob storage type). Easiest way to do this is via a Connection String (Availabe in the access key section of the storage acount).
 You can give it any name but the docker-compose file uses az-logs
 4. Change the AIRFLOW__LOGGING__REMOTE_LOGGING boolean in the compose file to true
 
