@@ -1,4 +1,4 @@
-FROM apache/airflow:2.2.3-python3.8
+FROM apache/airflow:2.3.0-python3.9
 
 RUN pip install 'apache-airflow[sentry]'
 
